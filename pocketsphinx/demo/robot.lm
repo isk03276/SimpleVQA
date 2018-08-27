@@ -1,0 +1,93 @@
+Language model created by QuickLM on Thu Feb 16 01:41:14 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 16 sentences and 19 words
+
+\data\
+ngram 1=19
+ngram 2=33
+ngram 3=18
+
+\1-grams:
+-0.7959 </s> -0.3010
+-0.7959 <s> -0.2253
+-2.0000 BOOK -0.2253
+-2.0000 BOX -0.2253
+-2.0000 CALENDAR -0.2253
+-2.0000 FINISH -0.2253
+-2.0000 IS -0.2253
+-2.0000 LEFT -0.2253
+-2.0000 OF -0.2253
+-2.0000 ON -0.2253
+-2.0000 RIGHT -0.2253
+-1.6990 ROBOT -0.2923
+-2.0000 SIDE -0.2253
+-2.0000 START -0.2253
+-2.0000 STOP -0.2253
+-2.0000 THE -0.2253
+-2.0000 UNDER -0.2253
+-2.0000 UPSIDE -0.2253
+-2.0000 WHAT -0.2253
+
+\2-grams:
+-1.5051 <s> BOOK 0.0000
+-1.5051 <s> BOX 0.0000
+-1.5051 <s> CALENDAR 0.0000
+-1.5051 <s> FINISH 0.0000
+-1.5051 <s> IS 0.0000
+-1.5051 <s> LEFT 0.0000
+-1.5051 <s> OF 0.0000
+-1.5051 <s> ON 0.0000
+-1.5051 <s> RIGHT 0.0000
+-1.2041 <s> ROBOT 0.0000
+-1.5051 <s> SIDE 0.0000
+-1.5051 <s> THE 0.0000
+-1.5051 <s> UNDER 0.0000
+-1.5051 <s> UPSIDE 0.0000
+-1.5051 <s> WHAT 0.0000
+-0.3010 BOOK </s> -0.3010
+-0.3010 BOX </s> -0.3010
+-0.3010 CALENDAR </s> -0.3010
+-0.3010 FINISH </s> -0.3010
+-0.3010 IS </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 OF </s> -0.3010
+-0.3010 ON </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.6021 ROBOT START 0.0000
+-0.6021 ROBOT STOP 0.0000
+-0.3010 SIDE </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 THE </s> -0.3010
+-0.3010 UNDER </s> -0.3010
+-0.3010 UPSIDE </s> -0.3010
+-0.3010 WHAT </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BOOK </s>
+-0.3010 <s> BOX </s>
+-0.3010 <s> CALENDAR </s>
+-0.3010 <s> FINISH </s>
+-0.3010 <s> IS </s>
+-0.3010 <s> LEFT </s>
+-0.3010 <s> OF </s>
+-0.3010 <s> ON </s>
+-0.3010 <s> RIGHT </s>
+-0.6021 <s> ROBOT START
+-0.6021 <s> ROBOT STOP
+-0.3010 <s> SIDE </s>
+-0.3010 <s> THE </s>
+-0.3010 <s> UNDER </s>
+-0.3010 <s> UPSIDE </s>
+-0.3010 <s> WHAT </s>
+-0.3010 ROBOT START </s>
+-0.3010 ROBOT STOP </s>
+
+\end\

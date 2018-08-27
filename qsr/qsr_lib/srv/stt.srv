@@ -1,0 +1,4 @@
+string base_object
+string direction
+---
+string result_object
